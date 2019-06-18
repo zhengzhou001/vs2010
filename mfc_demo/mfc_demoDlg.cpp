@@ -9,7 +9,10 @@
 #include "MyButton.h"   //按钮学习对话框
 #include "MyCheckBox.h"
 #include "MyEdit.h"
-
+#include "MyComboBox.h"
+#include "MyListBox.h"
+#include "MyGroupBox.h"
+#include "MyStaticText.h"
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -69,6 +72,10 @@ BEGIN_MESSAGE_MAP(Cmfc_demoDlg, CDialogEx)
 	ON_BN_CLICKED(IDC_BUTTON1, &Cmfc_demoDlg::OnBnClickedButton1)
 	ON_BN_CLICKED(IDC_BUTTON2, &Cmfc_demoDlg::OnBnClickedButton2)
 	ON_BN_CLICKED(IDC_BUTTON3, &Cmfc_demoDlg::OnBnClickedButton3)
+	ON_BN_CLICKED(IDC_BUTTON4, &Cmfc_demoDlg::OnBnClickedButton4)
+	ON_BN_CLICKED(IDC_BUTTON5, &Cmfc_demoDlg::OnBnClickedButton5)
+	ON_BN_CLICKED(IDC_BUTTON6, &Cmfc_demoDlg::OnBnClickedButton6)
+	ON_BN_CLICKED(IDC_BUTTON7, &Cmfc_demoDlg::OnBnClickedButton7)
 END_MESSAGE_MAP()
 
 
@@ -180,4 +187,37 @@ void Cmfc_demoDlg::OnBnClickedButton3()
 	// TODO: 在此添加控件通知处理程序代码
 	CMyEdit myEdit;
 	myEdit.DoModal();
+}
+
+
+void Cmfc_demoDlg::OnBnClickedButton4()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	CMyComboBox myComboBox;
+	myComboBox.DoModal();
+}
+
+
+void Cmfc_demoDlg::OnBnClickedButton5()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	CMyListBox myListBox;
+	myListBox.DoModal();
+}
+
+
+void Cmfc_demoDlg::OnBnClickedButton6()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	CMyGroupBox myGroupBox;
+	myGroupBox.DoModal();
+
+}
+
+
+void Cmfc_demoDlg::OnBnClickedButton7()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	CMyStaticText myStaticText ;
+	myStaticText.DoModal();
 }

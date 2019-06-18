@@ -96,6 +96,7 @@
   <ItemGroup>
     <None Include="ReadMe.txt" />
     <None Include="res\add.png" />
+    <None Include="res\bitmap1.bmp" />
     <None Include="res\icon1.ico" />
     <None Include="res\mfc_demo.ico" />
     <None Include="res\mfc_demo.rc2" />
@@ -105,7 +106,11 @@
     <ClInclude Include="mfc_demoDlg.h" />
     <ClInclude Include="MyButton.h" />
     <ClInclude Include="MyCheckBox.h" />
+    <ClInclude Include="MyComboBox.h" />
     <ClInclude Include="MyEdit.h" />
+    <ClInclude Include="MyGroupBox.h" />
+    <ClInclude Include="MyListBox.h" />
+    <ClInclude Include="MyStaticText.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -115,7 +120,11 @@
     <ClCompile Include="mfc_demoDlg.cpp" />
     <ClCompile Include="MyButton.cpp" />
     <ClCompile Include="MyCheckBox.cpp" />
+    <ClCompile Include="MyComboBox.cpp" />
     <ClCompile Include="MyEdit.cpp" />
+    <ClCompile Include="MyGroupBox.cpp" />
+    <ClCompile Include="MyListBox.cpp" />
+    <ClCompile Include="MyStaticText.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

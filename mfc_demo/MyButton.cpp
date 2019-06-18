@@ -87,10 +87,10 @@ void CMyButton::OnBnClickedButton6()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	//设置图标
-	 HICON hIcon;
+	/* HICON hIcon;
 	hIcon = (HICON)LoadImage(AfxGetInstanceHandle(),MAKEINTRESOURCE(IDB_PNG1),IMAGE_ICON,0,0,LR_DEFAULTCOLOR|LR_CREATEDIBSECTION);
 
 	HBITMAP hBmp=::LoadBitmap(AfxGetInstanceHandle(),  MAKEINTRESOURCE(IDB_PNG1));   
   
-	testButton.SetBitmap(hBmp);
+	testButton.SetBitmap(hBmp);*/
 }

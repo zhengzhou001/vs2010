@@ -28,6 +28,9 @@
     <None Include="res\add.png">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mfc_demo.h">
@@ -54,6 +57,18 @@
     <ClInclude Include="MyEdit.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MyComboBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGroupBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStaticText.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mfc_demo.cpp">
@@ -72,6 +87,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MyEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyComboBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGroupBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStaticText.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
